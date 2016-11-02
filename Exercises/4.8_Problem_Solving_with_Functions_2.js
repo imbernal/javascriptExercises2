@@ -32,5 +32,27 @@
 // Note: You do not need to call the function. Build the function declaration
 // without invoking it.
 
+var totalGenerated = 0;
+var idGenerator = 2;
+var statusGenerator = "on";
+var amountCurrent = 62;
+
+function changePowerTotal(totalGenerated , idGenerator , statusGenerator , amountCurrent){
+	
+	if ( statusGenerator == "on" ){
+
+		totalGenerated += amountCurrent;
+	}else
+		totalGenerated -= amountCurrent;
+
+	return totalGenerated;
+}
+
+ totalGenerated += changePowerTotal(totalGenerated , idGenerator , statusGenerator , amountCurrent );
+
+if (statusGenerator == "on"){
+	console.log("Generator #" + idGenerator + " is now on, adding " + amountCurrent + "MW, for a total of " + totalGenerated + "MW!");
+}else
+	console.log("Generator #" + idGenerator + " is now off, removing " + amountCurrent + "MW, for a total of " + totalGenerated + "MW!");
 
 

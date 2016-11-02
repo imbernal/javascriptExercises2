@@ -23,4 +23,16 @@
 // Use the code below in your solution.
 
 var userAge = prompt("What's your age, user?");
+
 var ageIsCorrect = false;
+
+
+while(!ageIsCorrect){
+	ageIsCorrect = confirm("You entered " + userAge + " Is this correct?");
+	if (!ageIsCorrect)
+		
+		userAge = prompt("What's your age, user?");
+}
+
+console.log("Great! Your age is logged as " + userAge + " .");
+

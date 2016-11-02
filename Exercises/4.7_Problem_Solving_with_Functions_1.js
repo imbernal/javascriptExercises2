@@ -14,3 +14,8 @@
 //
 //      "Each Oceanologist should load <number> grams of feed today."
 
+function feedPerOceanologist(currentPopulation , numberOceanologists){
+
+	var result = (currentPopulation * 2 ) / numberOceanologists;
+	window.alert("Each Oceanologist should load " + result + " grams of feed today.");
+}

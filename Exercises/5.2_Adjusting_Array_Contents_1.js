@@ -6,3 +6,8 @@
 // confirm that the numbers are in order.
 
 var list = [1, 2, 3, 7, 5, 6, 7, 8, 9];
+list[3] = 4;
+
+for (var i = 0; i < list.length; i++) {
+	console.log(list[i]);
+}

@@ -8,7 +8,7 @@
 var parkIsOpen = false;
 
 if (parkIsOpen) {
-  console.log("Welcome to the Flappy National Park! Try to enjoy your stay.");
+  window.alert("Welcome to the Flappy National Park! Try to enjoy your stay.");
 } else {
-  console.log("Sorry, the Flappy are particularly bad today. We're closed!");
+  window.alert("Sorry, the Flappy are particularly bad today. We're closed!");
 }

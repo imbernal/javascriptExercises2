@@ -7,3 +7,9 @@
 //    - a Boolean
 //
 // Then log values to the console.
+
+var values = ["string" , 1 , true];
+
+for (var i = 0; i < values.length; i++) {
+	console.log(values[i]);
+}

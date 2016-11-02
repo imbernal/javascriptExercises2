@@ -7,5 +7,8 @@
 // Note: use the specific array function that takes a piece of data off the
 // back of an array
 
+var values = ["string" , 1 , true];
+var bool = values.pop();
+console.log(bool);
 
 

@@ -9,4 +9,5 @@ var movie1 = [16, "Candles"];
 var movie2 = [3, "Men", "and", "a", "Baby"];
 var eightiesMovies = [movie1, movie2];
 
+window.alert(eightiesMovies[0][1] + " " + eightiesMovies[1][1] )
 

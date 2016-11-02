@@ -9,7 +9,9 @@ var movie1 = [16, "Candles"];
 var movie2 = [3, "Men", "and", "a", "Baby"];
 var eightiesMovies = [movie1, movie2];
 
+var infant = eightiesMovies[1][4];
 
+console.log(infant);
 
 
 

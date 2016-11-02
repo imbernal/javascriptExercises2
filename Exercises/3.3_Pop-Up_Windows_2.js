@@ -8,3 +8,8 @@
 //
 // When the correct dialog box pops up, enter your age to complete the
 // challenge. Then log userAge in the console.
+
+
+var userAge  = window.prompt("What's your age, user?");
+
+console.log("Hello " + age);

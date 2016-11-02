@@ -14,3 +14,19 @@
 //
 // Then test out your function in the console, passing in an array of strings
 // for the argument.
+
+function numStrings(list){
+	var count = 0;
+
+	for (var i = 0; i < list.length; i++) {
+		
+		if (typeof(list[i])== "string"){
+			
+			count +=1 ;
+		}
+	}
+
+	return count;
+}
+
+console.log(numStrings(["a" , "b" , 1]));

@@ -4,9 +4,19 @@
 // one line that returns a value. Then test your new function to make sure it
 // returns the same values as the old function.
 
-function mystery(x, y) {
-  var a = 4 * x * y;
-  var b = 3 * y + 5;
-  var c = a + b;
-  return c;
+//My new one line function
+
+function mystery(x,y){
+
+	return (4 * x * y) + ( 3 * y + 5 );
+
 }
+//Old Function
+// function mystery(x, y) {
+//   var a = 4 * x * y;
+//   var b = 3 * y + 5;
+//   var c = a + b;
+//   return c;
+// }
+
+console.log(mystery(1,2));

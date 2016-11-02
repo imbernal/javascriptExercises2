@@ -4,3 +4,8 @@
 // parameters. Inside the function, multiply the numbers together into one
 // product, and return the result. You may use whatever parameter and variable
 // names you’d like.
+
+
+function multiplyTrio(a,b,c){
+	return a*b*c;
+}
